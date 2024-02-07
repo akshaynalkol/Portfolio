@@ -1,0 +1,149 @@
+/************ Common Classes ************/
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 66px;
+
+}
+
+.fsize {
+    font-size: 18px;
+}
+
+.custom-space {
+    padding: 100px 0;
+}
+
+.bg-color {
+    background-color: #e0e2e3;
+}
+
+.primary-head {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.secondary-head {
+    font-size: 14px !important;
+    margin-bottom: 3px !important;
+    color: #7f8591;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.icon-padding {
+    padding: 8px 10px;
+}
+
+.icon-padding a i:hover {
+    color: #ffc107 !important;
+}
+
+
+
+/************ Navbar ************/
+.nav-link:hover,
+.active {
+    color: #ffc107 !important;
+}
+
+
+
+/************ Home ************/
+.custom-space-home {
+    padding: 250px 0;
+}
+
+#home {
+    background: url('./Images/bg-7.jpg') no-repeat scroll 50% 50%/cover;
+}
+
+.custom-style {
+    width: 80%;
+    transform: rotate(-7.8deg);
+    position: relative;
+    top: 50px;
+}
+
+
+
+/************ About ************/
+.profile-img {
+    background-color: #e9e9e9;
+}
+
+.about-info li span:first-child {
+    width: 130px;
+    font-weight: 700;
+}
+
+
+
+/************ Skill ************/
+.progress {
+    height: 8px;
+}
+
+
+
+/************ Resume ************/
+.resume-item {
+    position: relative;
+    padding: 0 0 20px 20px;
+    border-left: 2px solid #ffc107;
+    box-sizing: border-box;
+}
+
+.resume-item::before {
+    width: 16px;
+    height: 16px;
+    content: "";
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: -9px;
+}
+
+.resume-btn {
+    background-color: #e0e2e3;
+    display: inline-block;
+    padding: 4px 6px;
+}
+
+
+
+/************ Project ************/
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-wrap {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .1), #849ec9);
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1.3s;
+}
+
+.card:hover .card-wrap {
+    top: 0%;
+}
+
+
+/* Scroll Button */
+#scrollBtn {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    display: none;
+}
