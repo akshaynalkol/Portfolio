@@ -21,7 +21,7 @@ window.addEventListener('scroll', () => {
 
 /************ Typped JS ************/
 const typed = new Typed('.multiple-text', {
-    strings: ['Front End Developer ', 'Web Developer'],
+    strings: ['Web Developer', 'MERN Stack Developer', 'Front End Developer '],
     typeSpeed: 50,
     backSpeed: 50,
     backDelay: 1000,
